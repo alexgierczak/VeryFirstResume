@@ -1,0 +1,153 @@
+body {
+  background-color: #f7ffef;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  background-color: white;
+  width: 1200px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 40px auto;
+}
+
+/*right-side*/
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.about-me,
+.employment,
+.education,
+.interests {
+  margin-bottom: 40px;
+}
+
+.secondary-header {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1;
+  color: #2a2a2a;
+  margin-bottom: 40px;
+}
+
+/*about-me*/
+.main-header {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+}
+
+.about-me-job {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.214;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+}
+
+.about-me-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: #595959;
+  width: 600px;
+}
+
+/*employment, education*/
+.job-position,
+.field-of-study {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #2a2a2a;
+  padding-left: 10px;
+  margin-bottom: 16px;
+}
+
+.job-place,
+.university {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #637255;
+}
+
+.working-period,
+.studying-period {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #828282;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.interests-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #2a2a2a;
+  padding-left: 20px;
+}
+
+/*sidebar*/
+.sidebar {
+  background-color: #637255;
+  width: 370px;
+}
+
+.contact,
+.skills {
+  padding: 20px 40px 20px 40px;
+}
+
+.sidebar-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.227;
+  color: #f7ffef;
+  margin-bottom: 20px;
+}
+
+.sidebar-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.214;
+  color: #f7ffef;
+}
+
+.contact-link {
+  font-size: 14px;
+  line-height: 1.214;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 10px;
+}
+
+.skills-h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.111;
+  color: #f7ffef;
+}
+
+.skills-item {
+  color: #779c51;
+  margin-bottom: 10px;
+}
+
+.skills-item-text {
+  color: #f7ffef;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.214;
+}
+
+.skills-list {
+  margin-bottom: 40px;
+}
